@@ -1,7 +1,7 @@
 import React from "react";
 import {ContactPicker} from '../contactPicker/ContactPicker';
 
-//get today's date as a String to implement min Date
+//Get today's date as a String to implement min Date
 const getTodayString = () => {
   const [month, day, year] = new Date()
     .toLocaleDateString("en-US")
@@ -17,7 +17,7 @@ export const AppointmentForm = ({
   handleSubmit
 }) => {
 
-
+//Handle all inputs change
   const handleChange=({target})=>{
     const {name, value}= target;
     setAppointment((prev)=>({
@@ -25,7 +25,7 @@ export const AppointmentForm = ({
     }));
   }
  
-//ceate an arrays of all names extracted from the contacts object set in App.js
+//Ceate an arrays of all names extracted from the contacts object set in App.js to feed Contact-Picker component
 const contactNames= [];
 contacts?.map(contact => contactNames.push(contact.name));
 

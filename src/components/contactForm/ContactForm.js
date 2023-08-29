@@ -6,9 +6,8 @@ export const ContactForm = ({
   handleSubmit
 }) => {
   
-
+//Handle all input change
   const handleChange=({target})=>{
-   // setName(target.value);
    const {name, value}= target
     setContact((prev)=>({
       ...prev, [name]:value
