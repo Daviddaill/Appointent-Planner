@@ -1,5 +1,5 @@
-# Project Title: 
-Appointment Planner
+# Project : 
+APPOITMENT PLANNER
 
 # Description
 Challenge Project: 
@@ -18,4 +18,9 @@ Challenge Project:
 `npm start`
 
 # Technologies:
-React.js, React-Router, React Hooks (useState(), useEffect(), HTML, JavaScript, CSS
+React.js, 
+React-Router, 
+React Hooks(useState, useEffect), 
+HTML, 
+JavaScript, 
+CSS
