@@ -8,7 +8,7 @@ function App() {
   /*
   State variables for contacts and appointments 
   */
-  const [contacts, setContacts] = useState([{ name: 'penelope', phone_number: '0606060606', email: 'penelope@Mail.com' }]);
+  const [contacts, setContacts] = useState([]);
   const [appointments, setAppointments] = useState([]);
 
   /*
