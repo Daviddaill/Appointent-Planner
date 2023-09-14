@@ -10,7 +10,7 @@ Appointment Planner is an application that helps you manage your contacts and ap
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/johnnyBettencourt/appointment-planner.git`
+1. Clone the repository: `git clone https://github.com/Daviddaill/Appointent-Planner.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Open your browser and navigate to http://localhost:3000
